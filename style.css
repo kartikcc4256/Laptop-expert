@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    background-color: slategrey;
+    height: 90px;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+h1 {
+    margin-right: 50px;
+}
+
+.p1, .p2, .p3, .p4, .p5 {
+    font-size: 1.2rem;
+}
+
+.nav-search {
+    display: flex;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    margin-left: 30px;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.nav-search input {
+    height: 25px;
+    width: 250px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon {
+    width: 40px;
+}
+
+.search-icon i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-login, .nav-cart {
+    font-size: 1rem;
+}
+
+.nav-cart i {
+    font-size: 20px;
+}
+
+.logo img {
+    width: 65px;
+    border-radius: 3px;
+}
+
+.hero-image {
+    height: 570px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.scroll-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scroll-buttons img {
+    height: 570px;
+    width: 1519px;
+}
+
+.button1, .button2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.7rem;
+    height: 3rem;
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.button1 {
+    left: 10px;
+}
+
+.button2 {
+    right: 10px;
+}
+
+.box{
+    height : 300px;
+}
+
+.sections{
+    
+    justify-content: space-evenly;
+    background-color: rgb(225, 227, 230);
+}
+
+.sections span{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.sections img{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.box span {
+    justify-content: center;
+    background-color: slategray;
+    height: 30px;
+}
+
+.Desktops {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1.5rem;
+}
+
+.Office-desktops {
+    width: 310px;
+    border: 2px solid black;
+    height: 200px;
+    margin-left: 2rem;
+}
+
+.Office-desktops img{
+    width: 300px;
+    height: 200px;
+}
+
+.Office-desktops a{
+    justify-content: center;
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.Gaming-desktops {
+    width: 310px;
+    border: 2px solid black;
+    height: 200px;
+    margin-left: 2rem;
+}
+
+.Gaming-desktops img{
+    width: 300px;
+    height: 200px;
+}
+
+.Gaming-desktops a{
+    justify-content: center;
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.High-Performance-desktops {
+    width: 310px;
+    border: 2px solid black;
+    height: 200px;
+    margin-left: 2rem;
+}
+
+.High-Performance-desktops img{
+    width: 300px;
+    height: 200px;
+}
+
+.High-Performance-desktops a{
+    justify-content: center;
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+/**Laptops**/
+.Laptops {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1.5rem;
+}
+
+.Office-Laptops {
+    width: 310px;
+    border: 2px solid black;
+    height: 200px;
+    margin-left: 2rem;
+}
+
+.Office-Laptops img{
+    width: 300px;
+    height: 200px;
+}
+
+.Office-Laptops a{
+    justify-content: center;
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.Gaming-Laptops {
+    width: 310px;
+    border: 2px solid black;
+    height: 200px;
+    margin-left: 2rem;
+}
+
+.Gaming-Laptops img{
+    width: 300px;
+    height: 200px;
+}
+
+.Gaming-Laptops a{
+    justify-content: center;
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.High-Performance-Laptops {
+    width: 310px;
+    border: 2px solid black;
+    height: 200px;
+    margin-left: 2rem;
+}
+
+.High-Performance-Laptops img{
+    width: 300px;
+    height: 200px;
+}
+
+.High-Performance-Laptops a{
+    justify-content: center;
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+/**Computer accessories**/
+.Computer.accessories {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1.5rem;
+}
+
+.Mouse-and-Keyboard {
+    width: 310px;
+    border: 2px solid black;
+    height: 200px;
+    margin-left: 2rem;
+}
+
+.Mouse-and-Keyboard img{
+    width: 300px;
+    height: 200px;
+}
+
+.Mouse-and-Keyboard a{
+    justify-content: center;
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.External-devices-and-Data-storage {
+    width: 310px;
+    border: 2px solid black;
+    height: 200px;
+    margin-left: 2rem;
+    
+}
+
+.External-devices-and-Data-storage img{
+    width: 300px;
+    height: 200px;
+}
+
+.External-devices-and-Data-storage a{
+    justify-content: center;
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.Laptop-bags {
+    width: 310px;
+    border: 2px solid black;
+    height: 200px;
+    margin-left: 2rem;
+}
+
+.Laptop-bags img{
+    width: 300px;
+    height: 200px;
+}
+
+.Laptop-bags a{
+    justify-content: center;
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.middle {
+    height: 10px;
+    background-color: rgb(225, 227, 230);
+}
+
+/**footer**/
+.Bottom-panel{
+    height: 250px;
+    background-color: rgb(225, 227, 230);
+    background-color: #37475A;
+}
+
+.Bottom-panel span{
+    justify-content: center;
+    display: flex;
+    background-color: slategray;
+    height: 30px;
+    align-items: center;
+}
+
+.In-middle {
+    height: 30px;
+    background-color: #34465c;
+}
+
+.About-us {
+    height: 135px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+.Get-to-Know-us {
+    height: 251px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    font-size: 0.95rem;
+}
+
+.Connect-with-us {
+    height: 251px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    font-size: 0.95rem;
+}
+
+.Let-us-Help-you {
+    font-size: 0.95rem;
+    height: 251px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.bottom {
+    height: 70px;
+    background-color: #323d4b;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+button img {
+    width: 12px;
+    margin-right: 0.5rem;
+    color: white;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    background-color: #37475A;
+    border: 1px solid white;
+    color: white;
+}
+
+img {
+    width: 65px;
+}
+
+button i {
+    color: lightcyan;
+}
+
+ul{
+    list-style-type: none;
+}
+
